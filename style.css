@@ -1,0 +1,63 @@
+.profile {
+  background-color: white;
+  border-radius: 13px;
+  width: 800px;
+  height: 235px;
+  position: absolute;
+  margin: 30vh 20vw 30vh 20vw;
+  box-shadow: 5px 5px 5px rgb(192, 192, 192);
+}
+
+.btn_user_pic {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.user_pic {
+  border-radius: 100px;
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+.profile_info {
+  display: block;
+  position: absolute;
+  top: 50px;
+  left: 280px;
+  max-width: 600px;
+}
+
+.user_id {
+  font-weight: lighter;
+  font-size: 1.6rem;
+}
+
+li {
+  font-family: "Ubuntu", sans-serif;
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+}
+
+.followers,
+.following {
+  margin-left: 20px;
+}
+
+.user_info {
+  font-family: "Gothic A1", sans-serif;
+  margin-top: 20px;
+}
+
+dd {
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 10px;
+  line-height: 20px;
+}
